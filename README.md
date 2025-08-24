@@ -1,10 +1,10 @@
 # CleverCRM (Java, Spring Boot)
+CRM modulare con architettura esagonale (modular monolith pronto per microservizi). Include API REST per `contacts`, profili `dev` (H2) e `prod` (Postgres), OpenAPI, Docker e CI.
+
 > **Disclaimer**
 > This repository is an educational **demo** for end-to-end ML (training + serving).
 > The model is trained on **synthetic data** and **must not** be used to make real financial decisions.
 > No real personal data is included.
-
-CRM modulare con architettura esagonale (modular monolith pronto per microservizi). Include API REST per `contacts`, profili `dev` (H2) e `prod` (Postgres), OpenAPI, Docker e CI.
 
 ## Avvio rapido (senza Docker)
 ```bash
