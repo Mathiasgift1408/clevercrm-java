@@ -1,4 +1,8 @@
 # CleverCRM (Java, Spring Boot)
+> **Disclaimer**
+> This repository is an educational **demo** for end-to-end ML (training + serving).
+> The model is trained on **synthetic data** and **must not** be used to make real financial decisions.
+> No real personal data is included.
 
 CRM modulare con architettura esagonale (modular monolith pronto per microservizi). Include API REST per `contacts`, profili `dev` (H2) e `prod` (Postgres), OpenAPI, Docker e CI.
 
@@ -27,10 +31,13 @@ docker compose up --build
 mvn test
 ```
 
-## Prossimi passi
-- Aggiungere bounded context `deals`, `billing`, `notifications`.
-- Integrare sicurezza (JWT) e OpenTelemetry.
-- Estrarre microservizi (eventi dominio / outbox).
+## Limitations & Responsible Use
+- Synthetic dataset; results are illustrative only.
+- No calibration/monitoring/drift checks included yet.
+- No PII is processed; do not submit real customer data to the demo API.
+- Before any production use, add: data governance, monitoring, bias audits, rate limiting, auth, logging, model registry (e.g., MLflow).
+
 
 ---
+
 © drfb02
