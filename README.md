@@ -6,7 +6,7 @@ CRM modulare con architettura esagonale (modular monolith pronto per microserviz
 > The model is trained on **synthetic data** and **must not** be used to make real financial decisions.
 > No real personal data is included.
 
-## Avvio rapido (senza Docker)
+## Quick start (senza Docker)
 ```bash
 # Java 17+ e Maven
 mvn spring-boot:run
@@ -14,7 +14,7 @@ mvn spring-boot:run
 # http://localhost:8080/swagger-ui/index.html
 ```
 
-## Avvio con Docker Compose
+## Start with Docker Compose
 ```bash
 docker compose up --build
 # API su http://localhost:8080
